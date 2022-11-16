@@ -1,11 +1,16 @@
-$(document).ready(function(){
-    $.get('poke1.json')
-    .then(function(response) {
+/*.then(function(response) {
         return response.json();
     })
     .then(function(data) {
         displayPokemonCards(data)
     });
+*/
+
+$(document).ready(function(){
+    $.get('poke1.json', function(data, status){
+        $.load(displayPokemonCards(data));
+    })
+
 
 function displayPokemonCards(pokemonData) {
     let pokemonDiv = document.getElementById("pokemonContainer");
