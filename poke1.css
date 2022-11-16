@@ -18,13 +18,11 @@ body {
 .water-type {
     background-image: url('type-bg/water-type.png');
     width: 100%;
-    color: white;
 }
 
 .fire-type {
     background-image: url('type-bg/fire-type.png');
     width: 100%;
-    color: white;
 }
 
 .grass-type {
@@ -34,7 +32,6 @@ body {
 .electric-type {
     background-image: url('type-bg/electric-type.png');
     width: 100%;
-    color: white;
 }
 .bug-type {
     background-image: url('type-bg/bug-type.png');
@@ -43,7 +40,6 @@ body {
 .ghost-type {
     background-image: url('type-bg/ghost-type.png');
     width: 100%;
-    color: white;
 }
 
 .normal-type {
@@ -69,25 +65,21 @@ body {
 .poison-type {
     background-image: url('type-bg/poison-type.png');
     width: 100%;
-    color: white;
 }
 
 .ground-type {
     background-image: url('type-bg/ground-type.png');
     width: 100%;
-    color: white;
 }
 
 .rock-type {
     background-image: url('type-bg/rock-type.png');
     width: 100%;
-    color: white;
 }
 
 .fighting-type {
     background-image: url('type-bg/fighting-type.png');
     width: 100%;
-    color: white;
 }
 
 .action-row {
