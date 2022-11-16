@@ -1,4 +1,5 @@
-fetch('poke1.json')
+$(document).ready(function(){
+    $.get('poke1.json')
     .then(function(response) {
         return response.json();
     })
@@ -148,4 +149,5 @@ $(document).ready(function() {
 
     });
 
+});
 });
